@@ -1,0 +1,3 @@
+,recall @ 1% FPR,recall @ 2% FPR,recall @ 5% FPR,recall @ 10% FPR
+Random Forest,0.457,0.513,0.772,0.89
+Gradient Boosting,0.475,0.508,0.815,0.86

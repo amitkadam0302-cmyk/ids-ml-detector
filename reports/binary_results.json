@@ -1,0 +1,54 @@
+{
+  "Logistic Regression": {
+    "precision": 0.9167,
+    "recall (detection rate)": 0.6255,
+    "f1": 0.7436,
+    "false_positive_rate": 0.0751,
+    "false_negative_rate": 0.3745,
+    "tn": 8982,
+    "fp": 729,
+    "fn": 4806,
+    "tp": 8027,
+    "roc_auc": 0.7906,
+    "pr_auc": 0.866
+  },
+  "Random Forest": {
+    "precision": 0.9675,
+    "recall (detection rate)": 0.6087,
+    "f1": 0.7472,
+    "false_positive_rate": 0.027,
+    "false_negative_rate": 0.3913,
+    "tn": 9449,
+    "fp": 262,
+    "fn": 5022,
+    "tp": 7811,
+    "roc_auc": 0.9614,
+    "pr_auc": 0.9643
+  },
+  "Gradient Boosting": {
+    "precision": 0.9694,
+    "recall (detection rate)": 0.6709,
+    "f1": 0.793,
+    "false_positive_rate": 0.028,
+    "false_negative_rate": 0.3291,
+    "tn": 9439,
+    "fp": 272,
+    "fn": 4223,
+    "tp": 8610,
+    "roc_auc": 0.961,
+    "pr_auc": 0.9674
+  },
+  "Isolation Forest (unsupervised)": {
+    "precision": 0.9549,
+    "recall (detection rate)": 0.6546,
+    "f1": 0.7768,
+    "false_positive_rate": 0.0409,
+    "false_negative_rate": 0.3454,
+    "tn": 9314,
+    "fp": 397,
+    "fn": 4432,
+    "tp": 8401,
+    "roc_auc": 0.9407,
+    "pr_auc": 0.9529
+  }
+}

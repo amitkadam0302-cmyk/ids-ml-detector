@@ -1,0 +1,5 @@
+,precision,recall (detection rate),f1,false_positive_rate,false_negative_rate,tn,fp,fn,tp,roc_auc,pr_auc
+Logistic Regression,0.9167,0.6255,0.7436,0.0751,0.3745,8982.0,729.0,4806.0,8027.0,0.7906,0.866
+Random Forest,0.9675,0.6087,0.7472,0.027,0.3913,9449.0,262.0,5022.0,7811.0,0.9614,0.9643
+Gradient Boosting,0.9694,0.6709,0.793,0.028,0.3291,9439.0,272.0,4223.0,8610.0,0.961,0.9674
+Isolation Forest (unsupervised),0.9549,0.6546,0.7768,0.0409,0.3454,9314.0,397.0,4432.0,8401.0,0.9407,0.9529
